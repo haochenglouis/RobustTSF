@@ -19,6 +19,8 @@ Modify the data path in dataset.py [line 27 ~ line 30].
 
 ## Running different algorithms on Electricity dataset
 
+Please note that, in addition to the experiments provided in the RobustTSF_SOTA_Methods folder, you can totally execute the experiments using CPU.
+
 ### Vanilla training (MAE) with Missing anomaly (anomaly ratio 0.3): 
 
 ```
@@ -70,3 +72,7 @@ python train_noisy_mv_selection.py --loss mae --dataset ele --ano_type missing -
 ```
 python train_noisy_weighting.py --loss mae --dataset ele --ano_type missing --ano_ratio 0.3 
 ```
+
+## In **RobustTSF_SOTA_Methods** folder, we incorporate RobustTSF with current SOTA transformer architectures.
+
+
