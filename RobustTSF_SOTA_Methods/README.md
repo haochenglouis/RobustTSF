@@ -19,5 +19,5 @@ To ensure complete consistency, we replicated all experimental settings from the
 |         Fedformer         |   0.194   |   0.203   |    0.234    |    0.271    |    0.250     |    0.312     |
 | RobustTSF with Fedformer  | **0.174** | **0.179** |  **0.180**  |  **0.195**  |  **0.182**   |  **0.190**   |
 
-Notably, the performance of SOTA methods exhibits a decline when anomalies are introduced in the dataset. Encouragingly, RobustTSF consistently enhances the performance of SOTA methods in these noisy settings.
+Encouragingly, RobustTSF consistently enhances the performance of SOTA methods in these noisy settings.
 
