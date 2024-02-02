@@ -1,6 +1,6 @@
 # RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies
 
-This code is a PyTorch implementation of our paper "RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies".
+This code is a PyTorch implementation of our ICLR 2024 paper "RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies".
 ## Prerequisites
 
 cvxpy
