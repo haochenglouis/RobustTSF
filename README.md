@@ -73,6 +73,8 @@ python train_noisy_mv_selection.py --loss mae --dataset ele --ano_type missing -
 python train_noisy_weighting.py --loss mae --dataset ele --ano_type missing --ano_ratio 0.3 
 ```
 
-## In **RobustTSF_SOTA_Methods** folder, we incorporate RobustTSF with current SOTA transformer architectures.
+## RobustTSF with SOTA architectures
+
+In **RobustTSF_SOTA_Methods** folder, we incorporate RobustTSF with current SOTA transformer architectures.
 
 
