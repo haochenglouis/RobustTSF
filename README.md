@@ -1,6 +1,6 @@
-# RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies
+# (ICLR 2024) RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies
 
-This code is a PyTorch implementation of our ICLR 2024 paper "RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies".
+This code is a PyTorch implementation of our ICLR'24 paper "RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies".
 ## Prerequisites
 
 cvxpy
@@ -77,4 +77,17 @@ python train_noisy_weighting.py --loss mae --dataset ele --ano_type missing --an
 
 In **RobustTSF_SOTA_Methods** folder, we incorporate RobustTSF with current SOTA transformer architectures.
 
+## Citing RobustTSF
 
+If you find this repository useful for your research, please cite it in BibTeX format:
+
+```tex
+@inproceedings{cheng2024robusttsf,
+      title={RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies}, 
+      author={Hao Cheng and Qingsong Wen and Yang Liu and Liang Sun},
+      year={2024},
+      booktitle={Proceedings of the 12th International Conference on Learning Representations},
+      pages={1-28}
+}
+```
+In case of any questions, bugs, suggestions or improvements, please feel free to open an issue.
